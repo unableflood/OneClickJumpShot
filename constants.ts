@@ -1,0 +1,35 @@
+
+export const GAME_WIDTH = 400;
+export const GAME_HEIGHT = 600;
+
+export const PICO8_COLORS = {
+  BLACK: '#000000',
+  DARK_BLUE: '#1D2B53',
+  DARK_PURPLE: '#7E2553',
+  DARK_GREEN: '#008751',
+  BROWN: '#AB5236',
+  DARK_GRAY: '#5F574F',
+  LIGHT_GRAY: '#C2C3C7',
+  WHITE: '#FFF1E8',
+  RED: '#FF004D',
+  ORANGE: '#FFA300',
+  YELLOW: '#FFEC27',
+  GREEN: '#00E436',
+  BLUE: '#29ADFF',
+  INDIGO: '#83769C',
+  PINK: '#FAF5E6', // Richer ivory for background
+  HOT_PINK: '#FF77A8',
+  PEACH: '#FFCCAA',
+};
+
+export const PHYSICS = {
+  GRAVITY: 0.22,
+  RECOIL_FORCE: 9.5,
+  AIR_RESISTANCE: 0.98,
+  SHOCKWAVE_RADIUS: 120,
+  SHOCKWAVE_DURATION: 12,
+  FUEL_COST: 25,
+  FUEL_REGEN: 0.4,
+  MAX_FUEL: 100,
+  ENEMY_SPAWN_BASE: 0.02,
+};

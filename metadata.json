@@ -1,0 +1,5 @@
+{
+  "name": "PICO-8 Shockwave Survivor",
+  "description": "A high-octane survival game where you teleport, create shockwaves, and dodge falling red dots in a retro PICO-8 style environment.",
+  "requestFramePermissions": []
+}
