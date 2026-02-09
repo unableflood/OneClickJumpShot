@@ -17,7 +17,7 @@ export const PICO8_COLORS = {
   GREEN: '#00E436',
   BLUE: '#29ADFF',
   INDIGO: '#83769C',
-  PINK: '#FAF5E6', // Richer ivory for background
+  PINK: '#FFFDF0', // Richer, warmer ivory background
   HOT_PINK: '#FF77A8',
   PEACH: '#FFCCAA',
 };

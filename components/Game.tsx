@@ -593,7 +593,7 @@ const Game: React.FC<GameProps> = ({ config, isMouseOver, onPlayerScreenPosUpdat
       
       ctx.font = '12px "Press Start 2P"';
       ctx.fillStyle = PICO8_COLORS.DARK_BLUE;
-      ctx.fillText('SHOCKWAVE SURVIVOR', GAME_WIDTH / 2, GAME_HEIGHT / 2 - 5);
+      ctx.fillText('ONE CLICK JUMP AND SHOOT', GAME_WIDTH / 2, GAME_HEIGHT / 2 - 5);
       
       // Subtitle pulsing
       const subPulse = 0.7 + Math.sin(elapsedTimeRef.current * 0.1) * 0.3;
